@@ -1,0 +1,18 @@
+The objective of this assignment was to develop a client-server application using TCP sockets to facilitate the transfer of files between the client and the server. Additionally, the application was required to incorporate an initial greeting exchange between the client and server.
+Implementation:
+Client-Server Communication:
+Implemented a client-server architecture using TCP sockets in C programming language.
+Utilized socket programming functions to establish connections, send and receive data between the client and server.
+Initial Greeting:
+Incorporated an initial greeting exchange between the client and server. The server initiates the communication by sending a greeting message, which is followed by a response from the client.
+File Transfer:
+Enabled file transfer functionality, where the client can specify the file to be sent to the server.
+Implemented file sending and receiving mechanisms using socket communication. The client sends the file to the server, which receives and saves it.
+Handling Different File Types:
+Designed the application to handle files of any type, including text files, images, audio, video, or any other binary format.
+Utilized binary mode file operations ("rb" for reading and "wb" for writing) to ensure compatibility with various file types.
+User Interaction:
+Incorporated user interaction in the client application to prompt the user for the filename or full path of the file to be sent.
+Provided appropriate messages and prompts for user guidance during file transfer.
+Conclusion:
+The developed client-server application successfully achieves the specified objectives of facilitating file transfer over a TCP network. It provides a robust mechanism for exchanging files of any type between the client and server while ensuring smooth communication through initial greetings. The application demonstrates proficiency in socket programming concepts and effectively handles user interaction for seamless operation.
